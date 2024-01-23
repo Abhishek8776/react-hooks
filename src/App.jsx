@@ -16,7 +16,7 @@ import HookIntervalCounter from './components/hookIntervalCounter'
 import HookMouse from './components/hookMouse'
 import HookMouseContainer from './components/hookMouseContainer'
 import ComponentC from './components/componentC'
-
+import HookCounterFive from './components/hookCounterFive'
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
 function App() {
@@ -38,11 +38,12 @@ function App() {
       {/* <ClassIntervalCounter /> */}
       {/* <HookIntervalCounter /> */}
       {/* <DataFetching /> */}
-      <UserContext.Provider value={"vishwas"} >
+      {/* <UserContext.Provider value={"vishwas"} >
         <ChannelContext.Provider value={"codevelution"}>
           <ComponentC />
         </ChannelContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+      <HookCounterFive />
     </>
   )
 }
