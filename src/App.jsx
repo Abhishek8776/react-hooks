@@ -17,8 +17,23 @@ import HookMouse from './components/hookMouse'
 import HookMouseContainer from './components/hookMouseContainer'
 import ComponentC from './components/componentC'
 import HookCounterFive from './components/hookCounterFive'
+import HookCounterSix from './components/hookCounterSix'
+import HookCounterSeven from './components/hookCounterSeven'
+import DataFetchingOne from './components/dataFetchingOne'
+import DataFetchingTwo from './components/dataFetchingTwo'
+import ParrentComponent from './components/parrentComponent'
+import HookCounterEight from './components/hookCounterEight'
+import FocusInput from './components/focusInput'
+import ClassTimer from './components/ClassTimer'
+import HookTimer from './components/hookTimer'
+import DocTitleOne from './components/DocTitleOne'
+import DocTitleTwo from './components/DocTitleTwo'
+import HookCounterNine from './components/hookCounterNine'
+import HookCounterTen from './components/hookCounterTen'
+import UserForm from './components/UserForm'
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
+
 function App() {
 
   return (
@@ -43,7 +58,21 @@ function App() {
           <ComponentC />
         </ChannelContext.Provider>
       </UserContext.Provider> */}
-      <HookCounterFive />
+      {/* <HookCounterFive /> */}
+      {/* <HookCounterSix /> */}
+      {/* <HookCounterSeven /> */}
+      {/* <DataFetchingOne /> */}
+      {/* <DataFetchingTwo /> */}
+      {/* <ParrentComponent /> */}
+      {/* <HookCounterEight /> */}
+      {/* <FocusInput /> */}
+      {/* <ClassTimer /> */}
+      {/* <HookTimer /> */}
+      {/* <DocTitleOne /> */}
+      {/* <DocTitleTwo /> */}
+      {/* <HookCounterNine /> */}
+      {/* <HookCounterTen /> */}
+      <UserForm />
     </>
   )
 }
